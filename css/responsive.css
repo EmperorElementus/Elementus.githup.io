@@ -1,0 +1,189 @@
+@media (max-width: 1200px){
+.wrapper{
+	max-width: 85%;
+}
+.w-2 {
+	width: 100%;
+}
+.description{
+	padding: 45px 20px;
+}
+.align-right {
+	text-align: center;
+}
+
+#logo{
+	text-align: center;
+}
+#menu{
+	display: flex;
+	justify-content: center;
+}
+#menu ul li{
+	display: inline-block
+}
+#menu ul li a{
+	font-size: 20px;
+}
+#search input {
+	max-width: 100%;
+}
+
+#slider h1{
+	margin-top: 0;
+}
+
+#slider h1{
+        margin-top: 0;
+}
+.footer_content{
+	flex-direction: column;
+	padding: 15px 0;
+}
+
+.social {
+	margin-top: 10px;
+	width: 100%;
+	justify-content: center;
+}
+.social a{
+	margin-left: 5px;
+}
+
+#links ul li {
+	display: flex;
+	justify-content: center;
+	margin-left: 0;
+	margin-bottom: 7px;
+}
+.seeds{
+	flex-direction: column;
+	align-items: center;
+}
+.seeds .w-3{
+	width: 100%;
+}
+.wrapper-tomato {
+	flex-direction: column;
+	align-items: center;
+}
+.table{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.subhead {
+	margin:0; 
+	width: 100%;
+	text-align: center;
+}
+
+.wrapper-tomato{
+	max-width: 85%;
+}
+.wrapper-tomato .w-3{
+	width: 100%;
+}
+
+.tomato-one{
+	flex-direction: column;
+}
+.primary{
+	flex-direction: column;
+}
+.primary .pillar:first-child{
+	width: 100%;
+}
+.primary .pillar:last-child{
+	width: 100%;
+}
+}
+@media (max-width: 1024px){
+.title{
+	font-size: 40px;
+}
+.tomato-one h1{
+	font-size: 24px;
+}
+.tomato-one h2{
+	font-size: 24px;
+}
+.right-text span{
+	font-size: 15px;
+}
+.bg-tomato-one{
+	padding-bottom: 100px;
+}
+}
+@media (max-width: 768px){
+#slider h1{
+	color: #735440;
+	font-size: 35px;
+	font-weight: bold;
+} 
+#categories{
+	padding: 0;
+	padding-bottom: 20px;
+}
+#categories .row{
+	flex-direction: column;
+	align-items: center;
+}
+#categories .row .w-7{
+	margin-top: 20px;
+	width: 100%;
+}
+.text-category{
+	margin: 0;
+}
+.vision-container{
+	flex-direction: column;
+	margin-left: 10px;
+}
+.mission-container{
+	flex-direction: column;
+}
+.vision-container:last-child{
+	flex-direction:column-reverse;
+}
+.mission-container:last-child{
+	flex-direction:column-reverse;
+}
+.submit-flex{
+	flex-direction: column;
+	align-items: center;
+}
+.submit-flex input[type=text]{
+	margin: 15px 0;
+	width: 100%;
+}
+input[type=submit]{
+	width: 100%;
+	line-height: 325%;
+}
+.text-content1, .text-content2, .text-content3, .text-content4, .text-content5, .text-agridera  {
+	text-align: center;
+}
+.photo-wrapper, .photo-wrapper1{
+	margin: 0;
+}
+.content-wrapper, .content-wrapper1{
+left: 0;
+margin: 0;
+}
+}
+@media (max-width: 322px){
+#slider h1, .title{
+	font-size: 30px;
+}
+.line{
+	margin: 0;
+}
+.text-agridera{
+	font-size: 22px;
+}
+}
